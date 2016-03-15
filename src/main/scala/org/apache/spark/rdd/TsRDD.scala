@@ -25,6 +25,20 @@ import org.apache.spark.{Partition, TaskContext}
 import scala.reflect.ClassTag
 
 private[spark]
+class TsTree() {
+}
+
+private[spark]
+case class TsTreeNode(
+  tree:TsTree
+  ,rootNode:TsTreeNode
+  ,parentNode:TsTreeNode
+  ,depth:Long
+){
+  val childNodes:List = List()
+}
+
+private[spark]
 class TsRDDPartition(val prev: Partition, val seed: Int) extends Partition with Serializable {
   override val index: Int = prev.index
 }
