@@ -1,3 +1,19 @@
+# Tree-Shuffle & Time-Series RDD  
+
+> ### This work is continuation of [Quasar-Spark Connector](https://github.com/SoftwareDefinedBuildings/quasar-spark-connector)  
+
+
+
+## Tree-Shuffle  
+
+### Problem  
+
+### How we can fix  
+
+### Result  
+
+
+
 # HOW TO BUILD
 
 > sbt assembly  
